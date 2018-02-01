@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>menu</title>
+    
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+     <link rel="stylesheet" href="css/sss.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/animation.css">
+   <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+   
+
+   
+</head>
+<body>
+    
+    <header>
+        
+           <input type="checkbox" id="btn-menu">
+           <label for="btn-menu" class="icon-menu"></label>
+           
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li class="submenu"><a href="#">Contactanos</a></li>
+                <li class="submenu"><a href="#">Servicios<span class="icon-sort-down"></span></a>
+                  <ul>
+                      <li><a href="#">Desarrollo web</a></li>
+                      <li><a href="#">aplicaciones</a></li>
+                      <li><a href="#">Sistemas operativos</a></li>
+                  </ul>
+                
+                </li>
+                <li class="submenu"><a href="#">Productos <span class="icon-sort-down"></span></a>
+                   <ul>
+                      <li><a href="#">Notebooks</a></li>
+                      <li><a href="#">Servidores</a></li>
+                      <li><a href="#">Redes</a></li>
+                  </ul>
+                
+                
+                </li>
+            </ul>
+        </nav>
+        
+    </header>
+    
+    <!-- slider testimonial -->
+    <div class="wrapper">
+        <div class="slider-testimonial">
+            <div class="testimonial-item">
+                <div class="testimonial-cliente">
+                    <img src="images/cliente1.jpg" alt="">
+                    <p class="nombre-cliente">
+                    Carlos Contreras          
+                    </p>
+                </div>
+                <div class="testimonial-texto">
+                    <p class="texto1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime libero nemo ipsam sapiente odit! Aperiam non vitae voluptatibus quia ea perferendis, voluptate obcaecati, officiis omnis possimus iusto aut voluptatum ex!</p>
+                </div>
+            </div>
+            
+            <div class="testimonial-item">
+                <div class="testimonial-cliente">
+                    <img src="images/cliente2.jpg" alt="">
+                    <p class="nombre-cliente">
+                    Fernando Valentino          
+                    </p>
+                </div>
+                <div class="testimonial-texto">
+                    <p class="texto2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis doloremque temporibus accusantium libero nesciunt quis asperiores, ut architecto unde aperiam nostrum hic veniam? Fugiat adipisci, similique, possimus ea corrupti alias!</p>
+                </div>
+            </div>
+            
+            <div class="testimonial-item">
+                <div class="testimonial-cliente">
+                    <img src="images/cliente3.jpg" alt="">
+                    <p class="nombre-cliente"> 
+                    Andres Conca         
+                    </p>
+                </div>
+                <div class="testimonial-texto">
+                    <p class="texto3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, possimus enim a. Iste consequatur fugiat, consequuntur, repellendus vitae hic! Consequuntur placeat architecto doloribus illum, assumenda possimus cum. Ipsum, sunt culpa!</p>
+                </div>
+            </div>
+            
+            <div class="testimonial-item">
+                <div class="testimonial-cliente">
+                    <img src="images/cliente4.jpg" alt="">
+                    <p class="nombre-cliente">
+                      Juan Cardemil          
+                    </p>
+                </div>
+                <div class="testimonial-texto">
+                    <p class="texto4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ipsa soluta asperiores facere fuga recusandae eum officia autem veniam ex. Tenetur dignissimos ipsa assumenda molestias eius voluptas quo animi enim.</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <!-- fin slider testimonial -->
+    
+    
+    <script src="js/jquery-3.2.1.js"></script>
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+     <script src="js/sss.min.js"></script>
+    <script src="js/menu.js"></script>
+    
+    
+    <script type="text/javascript">
+        
+        $(document).ready(function(){
+            $(".slider-testimonial").sss({
+                slideShow: true,
+                startOn : 10,
+                speed:4500,
+            }); 
+        });
+    </script>
+    
+</body>
+</html>
